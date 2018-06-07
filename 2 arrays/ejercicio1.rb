@@ -7,12 +7,21 @@
 
 arreglo = [1,2,3,9,1,4,5,2,3,6,6]
 
+#1
 puts arreglo[0]
+
+#2
 puts arreglo[10]
+
+#3
 puts arreglo
 
-puts "#{a[0]}"
+#4
+arreglo.each_with_index do |value, index|
+    puts "Índice #{index}| Valor: #{value}"
+end
 
-for i in 1..array.length: {
-     
-}
+#5
+arreglo.each do |i|
+    puts value if i % 2 == 0
+end

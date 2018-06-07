@@ -10,3 +10,17 @@
 #    invertir el orden de los elementos en un arreglo.
 
 a = [1,2,3,9,1,4,5,2,3,6,6]
+
+#1
+a.pop
+
+#2
+a.shift
+
+#3
+
+
+#4
+
+
+#5
