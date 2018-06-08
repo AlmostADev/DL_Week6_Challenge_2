@@ -23,5 +23,5 @@ end
 
 #5
 arreglo.each do |i|
-    puts value if i % 2 == 0
+    puts i if i % 2 == 0
 end

@@ -12,15 +12,23 @@
 a = [1,2,3,9,1,4,5,2,3,6,6]
 
 #1
-a.pop
+#puts a.pop
 
 #2
-a.shift
+#puts a.shift
 
 #3
+#puts a.delete_at(5)
+if a.count % 2 == 0
+    puts "Elementos pares"
+else
+    puts a.delete_if(|a[i]| a.count % 2 != 0)
+end
 
 
 #4
-
+#for i in 1..a.length
+ #   puts a[i] if a[i] != 1
+#end
 
 #5

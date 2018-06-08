@@ -5,3 +5,11 @@
  # 4. Crear un método que incrementa todos los elementos en una unidad y devuelva un arreglo nuevo.
 
 a = [1,2,3,9,1,4,5,2,3,6,6]
+
+def deleteElements(array)
+    for i in 1..array.length
+        array.delete_if {|i| x % 2 == 0 }
+    end
+end
+
+puts deleteElements(a)
