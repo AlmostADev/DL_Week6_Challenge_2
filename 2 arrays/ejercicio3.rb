@@ -13,22 +13,33 @@
 
 #puts deleteEvenElements(a)
 
- # 2. Crear un método para obtener la suma de todos los elementos del arreglo Utilizando .each
+# 2. Crear un método para obtener la suma de todos los elementos del arreglo Utilizando .each
 
- #def sumElements(array)
- #   sum = 0
-  #  array.each do |i| 
+#def sumElements(array)
+    #sum = 0  
+   # array.each do |i| 
    #     sum += i
-    #end
-    #puts sum
+  #  end
+ #   puts sum
 #end
 
 #sumElements(a)
 
 # 3. Crear un método para obtener el promedio de un arreglo.
+#def promArray(array)
+ #   sum = 0  
+  #  array.each do |i| 
+   #     sum += i
+    #end
+    #(sum.to_f / array.count)
+#end
 
-def promArray(array)
-    
-end
+#puts promArray(a)
 
 # 4. Crear un método que incrementa todos los elementos en una unidad y devuelva un arreglo nuevo.
+def upToArray(array)
+    i = 0
+    a = array.new(99){i+=1}
+end
+
+puts upToArray(a)

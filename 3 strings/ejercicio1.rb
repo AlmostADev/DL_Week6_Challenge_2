@@ -5,3 +5,13 @@
 
 cadena = 'Hola Mundo!'
 caracter = 'o'
+
+def containChar(str, chr)
+    if str.include? chr
+        puts "El caracter esta incluido en el string"
+    else
+        puts "El caracter no esta contenido en el string"
+    end
+end
+
+containChar(cadena, caracter)
