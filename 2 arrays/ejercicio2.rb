@@ -25,7 +25,6 @@ else
     puts a.delete_if(|a[i]| a.count % 2 != 0)
 end
 
-
 #4
 #for i in 1..a.length
  #   puts a[i] if a[i] != 1
