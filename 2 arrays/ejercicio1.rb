@@ -16,6 +16,6 @@ arreglo.each_with_index do |value, index|
 end
 
 # 5. Mostrar en pantalla todos los elementos que se encuentren en una posición par.
-arreglo.each do |i|
-    puts i if i % 2 == 0
+arreglo.each_with_index do |i, j|
+    puts i if (j % 2).zero?
 end

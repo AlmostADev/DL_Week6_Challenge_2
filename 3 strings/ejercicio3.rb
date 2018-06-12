@@ -18,7 +18,7 @@ a.zip(b).each do |i, j|
 end
 
 # 4. Intercalar los elementos: [[1, "lunes"], [2, "martes"], [3, "miércoles"], [9, "jueves"], [12, "viernes"], [31, "sábado"], ["domingo", "domingo"]]
-a.zip(b).flatten
-
-
+a.zip(b).each_with_index do |i, j|
+    array_z = [i, b [j]]
+end
 

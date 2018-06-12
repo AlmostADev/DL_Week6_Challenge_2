@@ -37,7 +37,7 @@ puts promArray(a)
 # 4. Crear un método que incrementa todos los elementos en una unidad y devuelva un arreglo nuevo.
 def upToArray(array)
     i = 0
-    a = array.new(99){i+=1}
+    a = array.map{ |i| i+=1}
 end
 
 puts upToArray(a)
